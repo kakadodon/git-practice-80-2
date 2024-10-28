@@ -1,7 +1,7 @@
 name:sample-workflow
 on:
   push:
-    branch: [main]
+    branch: [develop]
 
 jobs:
   job1:
