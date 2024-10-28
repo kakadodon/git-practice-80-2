@@ -1,11 +1,11 @@
 name:sample-workflow
 on:
   push:
-    branch: [master]
+    branch: [main]
 
 jobs:
   job1:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: check-out your repository under $GITHUB_WORKSPACE
       uses: action/checkout@v2
